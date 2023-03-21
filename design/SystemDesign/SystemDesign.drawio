@@ -61,8 +61,8 @@
                 <mxCell id="16" value="ユーザ" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans Japanese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJapanese;fontSize=16;" vertex="1" parent="18">
                     <mxGeometry x="35" y="45" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="user" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" vertex="1" parent="18">
-                    <mxGeometry x="52.5" y="65" width="65" height="40" as="geometry"/>
+                <mxCell id="17" value="user_table" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" vertex="1" parent="18">
+                    <mxGeometry x="46.25" y="65" width="77.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="15">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
