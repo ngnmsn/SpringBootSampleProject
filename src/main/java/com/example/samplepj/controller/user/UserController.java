@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.samplepj.domain.model.user.RequestUserRegist;
 import com.example.samplepj.domain.model.user.ResponseUserRegist;
+import com.example.samplepj.domain.model.user.RequestLogin;
+import com.example.samplepj.domain.model.user.ResponseLogin;
 import com.example.samplepj.domain.service.user.UserService;
 
 /**
@@ -36,5 +38,21 @@ public class UserController {
 
       // APIレスポンス
       return responseUserRegist;
+  }
+
+  /**
+   * ログインAPI 
+   * POST /user/login
+   * @param requestLogin ログインAPIのリクエストボディ
+   * @return responseLogin ログインAPIのレスポンスボディ
+   */
+  @PostMapping("login")
+  public ResponseLogin login(@RequestBody RequestLogin requestLogin) {
+
+    // サービスクラスのログイン処理呼び出し
+    ResponseLogin responseLogin = userService.login(requestLogin);
+
+    // APIレスポンス
+    return responseLogin;
   }
 }
